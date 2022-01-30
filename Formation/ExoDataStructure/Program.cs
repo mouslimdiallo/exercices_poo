@@ -10,7 +10,7 @@ namespace StructuresData
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Exo sur les interfaces et classes abstraites");*
+            Console.WriteLine("Exo sur les interfaces et classes abstraites");
 
         }
     }

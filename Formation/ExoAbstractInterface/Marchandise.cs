@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Marchandises
+﻿namespace Marchandises
 {
-    public abstract Marchandise
+    public abstract class Marchandise
     {
         double prix;
         int poids;
+
+        public abstract void Calcul();
     }
 }

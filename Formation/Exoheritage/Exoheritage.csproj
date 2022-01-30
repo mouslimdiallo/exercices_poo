@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59A86135-BD2B-46BC-805B-F593062CED8A}</ProjectGuid>
+    <ProjectGuid>{BB125499-6287-49FA-80C1-AADE04DBC268}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ExoAbstractInterface</RootNamespace>
-    <AssemblyName>ExoAbstractInterface</AssemblyName>
+    <RootNamespace>Exoheritage</RootNamespace>
+    <AssemblyName>Exoheritage</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Marchandise.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Transport.cs" />
-    <Compile Include="Transport_aerien.cs" />
-    <Compile Include="Transport_aerien_urgent.cs" />
-    <Compile Include="Transport_routier.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

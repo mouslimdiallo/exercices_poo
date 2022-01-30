@@ -1,0 +1,7 @@
+﻿namespace Marchandises
+{
+    interface Transport
+    {
+
+    }
+}
